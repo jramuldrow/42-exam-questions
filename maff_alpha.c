@@ -9,8 +9,9 @@ caBcDeFgHiJkLmNoPqRsTuVwXyZ$
 
 // I will show you two diiferent codes to answer this question. 
 // One is looked upon as lazy and the other is not.
-// play around with the ascii table to get the idea about all the alphabeta questions that are in this exam.
-// 42 students.
+
+// a function in C can be declared with a return type of void . This means that the function doesn't return a value. 
+// void can also be used to indicate to the compiler that the function does not take any arguments.
 
 The First Code:
 
@@ -21,7 +22,7 @@ void  ft_putchar(char c)
     write(1, &c, 1);
 }
 
-int   main(void)
+int   main(void) // void because we are not taking any arguments
 {
   char a;
   char b;
