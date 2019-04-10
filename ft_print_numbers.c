@@ -18,4 +18,5 @@ void  ft_print_numbers(void)
       write(1, &num, 1);
       num++;
     }
+    return (0);
 }
