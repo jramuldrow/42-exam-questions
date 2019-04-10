@@ -35,9 +35,9 @@ int   main(int argc, char **argv)
         { 
             write(1, argv[1]++, 1); // write out the whole index of this array, only this index though
         }
-        write(1, "\n", 1); // follwed by a new line
-        return (0); 
+        write(1, "\n", 1); // follwed by a new line 
     }
+    return (0);
 }    
 here it is again without all the comments
 
