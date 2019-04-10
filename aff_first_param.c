@@ -25,7 +25,7 @@ $
 int   main(int argc, char **argv)
 {   
     //so if the program is less then 1(which means it only contains the program then have the program display a newline
-    if (argc < 1)
+    if (argc <= 1) // hint 1 is not greater then 1
         write(1, "\n", 1);
     // but if the program has any arguments besides its own name then have the program display just the first argument 
     // follwed by a newline
