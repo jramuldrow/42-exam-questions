@@ -14,6 +14,7 @@ $> ./aff_z | cat -e
 z$
 */
 
+// This is somewhat simular to aff_a but not quite.
 // Now this is a bit of a trick to this answer, most answers I've seen on this have been
 
 #include <unistd.h>
